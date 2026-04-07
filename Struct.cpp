@@ -8,3 +8,9 @@ struct Orang
     int umur;
 };
 
+int main()
+{
+    // deklarasi variable struct
+    Orang mhs;
+
+    
