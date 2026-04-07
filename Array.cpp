@@ -35,4 +35,12 @@ int main()
     cout << "data kelima: " << datamu[4] << endl;
     cout << endl;
     
-   
+    // mengisi data melalui perulangan
+ for (int i = 0; i <= 4; i++)
+    {
+        cout << "Isikan data ke-" << (i + 1) << " : ";
+        cin >> datamu[i];
+    }
+
+    cout << endl;
+    
